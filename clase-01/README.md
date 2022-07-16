@@ -92,10 +92,15 @@ https://elcodigoascii.com.ar/
 
 * Local REPO - Cajita de Fotos - Commits: Los commits que voy haciendo
 
-## Para saber el estado de los archivos en WD
+## Para saber el estado de los archivos en WD y SA
 
     git status
 
+## ¿Cómo sacamos la foto (Commmit)?
+Una vez confirmados los cambios (Los archivos están en el SA)
 
+    git commit -m "Mensaje"
 
+## Para ver las diferencias entre el WD y el Local Repo
 
+    git diff
