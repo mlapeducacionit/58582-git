@@ -92,5 +92,10 @@ https://elcodigoascii.com.ar/
 
 * Local REPO - Cajita de Fotos - Commits: Los commits que voy haciendo
 
+## Para saber el estado de los archivos en WD
+
+    git status
+
+
 
 
