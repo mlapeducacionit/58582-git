@@ -109,3 +109,22 @@ Una vez confirmados los cambios (Los archivos están en el SA)
 
     git log
     git log --online
+
+## Configurar en el repo local un remoto
+
+    git remote add origin <url>
+    git remote add origin https://github.com/mlapeducacionit/58582-git.git
+
+## Para verificar si tengo el remoto configurado
+
+    git remote
+    git remote -v
+
+## Subir al repo remoto
+
+    git push -u <repo-remoto> <repo-local>
+    git push -u origin master
+
+
+
+
