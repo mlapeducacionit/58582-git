@@ -104,3 +104,8 @@ Una vez confirmados los cambios (Los archivos están en el SA)
 ## Para ver las diferencias entre el WD y el Local Repo
 
     git diff
+
+## Para ver las fotos o commits del repositorio
+
+    git log
+    git log --online
