@@ -35,4 +35,9 @@ Fast-forward: (La fusión va a ser automática) No hay conflicto
 Recursiva: (Unión automática) No hay conflicto
 Manual: (No va poder resolver en forma automática) O sea hay conflictos. 
 
+## GIT LOG
+
+    git log --help
+
+    git log --oneline --decorate --all --graph
 
