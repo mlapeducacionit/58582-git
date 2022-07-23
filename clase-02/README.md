@@ -29,3 +29,8 @@ Le permite a git ver carpetas vacías y versionarlas
     git merge <rama-que-me-quiero-traer>
     git merge rama-branches
 
+## GIT LOG
+
+    git log --help
+
+    git log --oneline --decorate --all --graph
