@@ -29,3 +29,10 @@ Le permite a git ver carpetas vacías y versionarlas
     git merge <rama-que-me-quiero-traer>
     git merge rama-branches
 
+### TIPO DE FUSIONES (MERGE)
+
+Fast-forward: (La fusión va a ser automática) No hay conflicto
+Recursiva: (Unión automática) No hay conflicto
+Manual: (No va poder resolver en forma automática) O sea hay conflictos. 
+
+
