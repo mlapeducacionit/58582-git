@@ -22,6 +22,11 @@ Le permite a git ver carpetas vacías y versionarlas
     git switch <nombre-rama>
     git switch rama-dev
 
+### Borramos una rama
+
+    git branch -d <nombre-rama>
+    git branch -d rama-dev
+
 ## GIT MERGE: Funsión de ramas
 
 **IMPORTANTE:** Tengo que estar en la rama en al cual quiero traerme los cambios. Si quiero traerme lo rama-branches. Tengo que estar en master y ejecutar el git merge.
