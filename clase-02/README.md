@@ -55,14 +55,20 @@ Manual: (No va poder resolver en forma automática) O sea hay conflictos.
 
 > Agregar alias
 
-git config --global alias.l "log --oneline"
-git config --global alias.l "log --oneline --all --decorate --graph"
-git config --global alias.c "commit -am"
-git config --global alias.s status --short
+    git config --global alias.l "log --oneline"
+    git config --global alias.l "log --oneline --all --decorate --graph"
+    git config --global alias.c "commit -am"
+    git config --global alias.s status --short
+
 > Borrar alias
 
-git config --global --unset alias.c
+    git config --global --unset alias.c
 
 > Listar alias disponisbles
 
-git config --get-regexp alias
+    git config --get-regexp alias
+
+## GIT COMMIT (Cont...)
+Enmendar un commit. Corregir.
+
+    git commit --amend
