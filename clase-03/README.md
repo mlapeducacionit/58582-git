@@ -28,7 +28,7 @@ Me permite seleccionar un commit o varios y llevarlos a la rama que necesite.
     git cherry-pick <hash>^..<hash>
     git cherry-pick 57f7d4b^..e061800
 
-> Sin el sobrerito. Descarta los commit de los bordes
+> Sin el sobrerito (acento circunflejo). Descarta los commit de los bordes
 
     git cherry-pick <hash>..<hash>
     git cherry-pick 57f7d4b..e061800
