@@ -58,7 +58,8 @@ Manual: (No va poder resolver en forma automática) O sea hay conflictos.
     git config --global alias.l "log --oneline"
     git config --global alias.l "log --oneline --all --decorate --graph"
     git config --global alias.c "commit -am"
-    git config --global alias.s status --short
+    git config --global alias.s "status --short"
+    git config --global alias.c "commit -m"
 
 > Borrar alias
 
