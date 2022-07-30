@@ -32,3 +32,24 @@ Me permite seleccionar un commit o varios y llevarlos a la rama que necesite.
 
     git cherry-pick <hash>..<hash>
     git cherry-pick 57f7d4b..e061800
+
+# GIT RESET
+
+Hay 3 tipos de resets
+
+## GIT RESET SOFT
+Al ejecutar el comando lo que hace git reset soft es eliminar los commits pero me deja los cambios que tienen dentro en el staging area (Index). Area de confirmación.
+
+    git reset --soft <hash>
+
+## GIT RESET MIXED (POR DEFECTO)
+Al ejecutar el comando lo que hace git reset mixed es eliminar los commits pero me deja los cambios que tienen dentro commits en el working directory. Area de trabajo.
+
+    git reset <hash>
+    git reset --mixed <hash>
+
+## GIT RESET HARD (MUY PELIGROSO)
+Lo que hace es eliminar los commits y descartar su contenido. O sea pierdo la información dentro de los commits reseteados.
+
+    git reset --hard <hash>
+
