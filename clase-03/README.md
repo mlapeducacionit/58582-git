@@ -53,3 +53,33 @@ Lo que hace es eliminar los commits y descartar su contenido. O sea pierdo la in
 
     git reset --hard <hash>
 
+# GIT STASH
+
+## Creo un stash
+
+    git stash
+
+## Listar stash
+
+    git stash list
+
+## Recuperar el ùltimo stash
+
+    git stash pop
+
+## Recuperar un stash en particular
+
+```sh
+    git stash apply # último stash
+    git stash apply stash@{1}
+```
+## Borro un stash en particular
+
+```sh
+    git stash drop # último stash
+    git stash apply stash@{1}
+```
+
+## Aplico un stash en nueva rama
+
+    git stash branch <nombre-rama>
